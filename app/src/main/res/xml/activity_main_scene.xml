@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="1000">
+       <KeyFrameSet>
+           <KeyAttribute
+               motion:motionTarget="@+id/header_title"
+               motion:framePosition="100"
+               android:alpha="0" />
+       </KeyFrameSet>
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint
+            android:layout_height="30dp"
+            android:layout_marginTop="130sp"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="101dp"
+            motion:layout_constraintVertical_bias="0.0"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="160sp"
+            android:layout_marginStart="160sp"
+            android:id="@+id/total_contacts"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintHorizontal_bias="0.0" />
+        <Constraint
+            android:layout_height="1dp"
+            android:layout_width="wrap_content"
+            android:id="@+id/textView2"
+            motion:layout_editor_absoluteY="202dp"
+            motion:layout_editor_absoluteX="16dp" />
+        <Constraint
+            android:layout_height="47dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="68dp"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintHorizontal_bias="0.0"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="155dp"
+            android:layout_marginStart="130sp"
+            android:id="@+id/header_title" />
+        <Constraint
+            android:layout_height="408sp"
+            android:layout_marginTop="230sp"
+            motion:layout_editor_absoluteX="0dp"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="match_parent"
+            motion:layout_constraintVertical_bias="0.0"
+            android:id="@+id/fragmentContainerView" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint
+            android:layout_height="1dp"
+            android:layout_width="155dp"
+            android:id="@+id/header_title"
+            motion:layout_editor_absoluteX="130dp" />
+        <Constraint
+            android:layout_height="1dp"
+            android:layout_width="101dp"
+            android:id="@+id/total_contacts"
+            motion:layout_editor_absoluteY="130dp" />
+        <Constraint
+            motion:layout_constraintVertical_bias="0.255"
+            android:layout_height="wrap_content"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="wrap_content"
+            android:id="@+id/textView2"
+            motion:layout_constraintHorizontal_bias="0.046" />
+    </ConstraintSet>
+</MotionScene>

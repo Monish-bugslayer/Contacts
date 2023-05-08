@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="@string/filter"
+        android:icon="@drawable/baseline_filter_alt_24"
+        android:id="@+id/filter"
+        app:showAsAction="ifRoom"/>
+    <item android:title="@string/search"
+        android:id="@+id/search_badge_menu"
+        android:icon="@drawable/baseline_search_24"
+        app:showAsAction="ifRoom"/>
+    <item android:title="@string/show_messages"/>
+    <item android:title="@string/hide_blocked_contacts"/>
+    <item android:title="@string/total_call_time"/>
+    <item android:title="@string/settings" />
+</menu>

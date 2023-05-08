@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Contacts</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="phone">Phone</string>
+    <string name="keypad">Keypad</string>
+    <string name="recents">Recents</string>
+    <string name="all_contacts">All Contacts</string>
+    <string name="total">0 contacts with phone numbers</string>
+    <string name="mobile">Mobile</string>
+    <string name="search">search</string>
+    <string name="filter">filter</string>
+    <string name="show_messages">Show messages</string>
+    <string name="hide_blocked_contacts">Hide blocked contacts</string>
+    <string name="total_call_time">Total call time</string>
+    <string name="settings">Settings</string>
+    <string name="add">add</string>
+    <string name="edit">Edit</string>
+    <string name="manage_contacts">Manage contacts</string>
+    <string name="recycle_bin">Recycle bin</string>
+    <string name="contacts_settings">Contacts settings</string>
+    <string name="_0_contacts_with_phone_numbers">0 contacts with phone numbers</string>
+    <string name="no_recent_searches">No Recent Searches</string>
+    <string name="title_activity_edit">Edit</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="title_activity_search">SearchActivity</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>

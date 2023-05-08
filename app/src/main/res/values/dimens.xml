@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_scrollbar_width">8dp</dimen>
+    <dimen name="default_bubble_elevation">6dp</dimen>
+    <dimen name="default_bubble_margin">4dp</dimen>
+    <dimen name="default_bubble_padding">4dp</dimen>
+    <dimen name="default_bubble_text_size">22sp</dimen>
+    <dimen name="default_bubble_min_width">54dp</dimen>
+    <dimen name="default_bubble_height">54dp</dimen>
+    <dimen name="bubble_scroll_bar_text_size">20</dimen>
+    <dimen name="fast_scroll_bar_width">20</dimen>
+    <dimen name="fast_scroll_bar_margin">10</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

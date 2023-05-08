@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/bottom_sheet">
+
+    <ImageButton
+        android:id="@+id/message_in_bottom_nav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#D2CED8"
+        android:src="@drawable/baseline_chat_25" />
+
+    <ImageButton
+        android:id="@+id/delete_in_bottom_nav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#D2CED8"
+        android:src="@drawable/baseline_delete_outline_24"
+         />
+
+    <ImageButton
+        android:id="@+id/share_in_bottom_nav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="90dp"
+        android:src="@drawable/baseline_share_24"
+        app:layout_constraintHorizontal_bias="0.663"
+        app:layout_constraintStart_toEndOf="@+id/delete_in_bottom_nav"
+        android:backgroundTint="#D2CED8"/>
+
+
+</LinearLayout>
